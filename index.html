@@ -1,0 +1,52 @@
+<html>
+
+  <head>
+    <title>Sage's page</title>
+    <style>
+      h1 {
+        color: white;
+      }
+      .box1 {
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+        padding: 20px;
+        background-color: purple;
+        text-align: center;
+      }
+      .box2 {
+        width: 200px;
+        height: 200px;
+        margin: 50px;
+        padding: 20px;
+        background-color: green;
+      }
+      #sageBtn {
+        width: 150px;
+        height: 50px;
+      }
+    </style>
+    <script>
+    window.onload = () => {
+      const sageBtn = document.getElementById('sageBtn');
+      sageBtn.addEventListener('click', () => alert('You clicked it!'))
+    }
+    </script>
+  </head>
+
+  <body>
+
+    <div class="box1">
+      <button id="sageBtn">Yo, Click Here!</button>
+    </div>
+
+    <div class="box2">
+      <h1>Sage is da man!</h1>
+      <p style="font-size: 30px;">
+        Sage is awesome!!!!
+      </p>
+    </div>
+
+  </body>
+
+</html>
